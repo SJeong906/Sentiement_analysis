@@ -10,8 +10,8 @@ from keras_preprocessing.sequence import pad_sequences
 import datetime
 import os
 from sklearn.model_selection import train_test_split
-# import nlpaug
-# import nlpaug.augmenter.word as naw
+import nlpaug
+import nlpaug.augmenter.word as naw
 import nltk
 from nltk.stem import PorterStemmer
 from nltk.corpus import stopwords
